@@ -53,7 +53,7 @@ public class HangManGame {
 	    		System.out.println("You Won, the word was " + word);
 	    		break;
 	    	}
-	    	System.out.println("Enter you guess for the word:");
+	    	System.out.println("Enter your guess for the word:");
 	    	if(keyboard.nextLine().equals(word)) {
 	    		System.out.println("You Won, the word was" + word);
 	    		break;
@@ -68,7 +68,7 @@ public class HangManGame {
 		}
     	}
     	else {
-    		System.out.println("This is only a single player game right now");
+    		System.out.println("This is only a single player game currently.");
     	}
     	
     	
